@@ -1,0 +1,5 @@
+[33m75b6dde[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31mupstream/main[m[33m, [m[1;31mupstream/HEAD[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m 🔧  chore: adiciona chave secreta JWT no application.properties
+[33m3084e4e[m Merge pull request #7 from miguellimaa/feature/auth-config
+[33m81ed89b[m[33m ([m[1;31morigin/feature/auth-config[m[33m)[m feat: configura SecurityFilterChain com rotas protegidas e provider JWT
+[33m91ba635[m Merge pull request #6 from arthur7con/feature/security-filter
+[33m9f5f5fb[m 🔒 feat: implementa SecurityFilter para validar token JWT em cada requisição
