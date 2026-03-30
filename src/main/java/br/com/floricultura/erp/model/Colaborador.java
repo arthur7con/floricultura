@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "COLABORADOR")
@@ -36,4 +37,7 @@ public class Colaborador {
     @ManyToOne
     @JoinColumn(name = "FK_IdCargo", referencedColumnName = "id")
     private Cargo cargo;
+
+    private LocalDate dataNascimento;
+    private LocalDate dataContratacao;
 }
